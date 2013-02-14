@@ -2,7 +2,7 @@ package com.github.lygaret.euler
 
 object Problem1 extends App {
 
-	val r = (1 until 100).view
+	val r = (1 until 1000).view
 
 	val threes = r.filter(_ % 3 == 0)
 	val fives  = r.filter(_ % 5 == 0)
